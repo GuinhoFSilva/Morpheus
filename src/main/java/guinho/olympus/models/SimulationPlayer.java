@@ -9,6 +9,23 @@ public class SimulationPlayer {
     private String password;
     private String token;
 
+    public SimulationPlayer(UUID id, String nickname, String email, String password, String token) {
+        this.id = id;
+        this.nickname = nickname;
+        this.email = email;
+        this.password = password;
+        this.token = token;
+    }
+
+    public SimulationPlayer(String nickname, String email, String password) {
+        this.nickname = nickname;
+        this.email = email;
+        this.password = password;
+    }
+
+    public SimulationPlayer() {
+    }
+
     public UUID getId() {
         return id;
     }
@@ -47,5 +64,16 @@ public class SimulationPlayer {
 
     public void setToken(String token) {
         this.token = token;
+    }
+
+    @Override
+    public String toString() {
+        return "SimulationPlayer{" +
+                "id=" + id +
+                ", nickname='" + nickname + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", token='" + token + '\'' +
+                '}';
     }
 }
