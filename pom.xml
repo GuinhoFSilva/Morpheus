@@ -51,6 +51,16 @@
             <artifactId>datafaker</artifactId>
             <version>2.7.0</version>
         </dependency>
+        <dependency>
+            <groupId>info.picocli</groupId>
+            <artifactId>picocli</artifactId>
+            <version>4.7.7</version>
+        </dependency>
+        <dependency>
+            <groupId>info.picocli</groupId>
+            <artifactId>picocli-spring-boot-starter</artifactId>
+            <version>4.7.6</version> <!-- Use a versão estável mais recente -->
+        </dependency>
     </dependencies>
 
     <build>

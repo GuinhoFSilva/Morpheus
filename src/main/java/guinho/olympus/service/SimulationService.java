@@ -4,12 +4,13 @@ import guinho.olympus.clients.argos.ArgosRestClient;
 import guinho.olympus.clients.argos.dto.LoginRequest;
 import guinho.olympus.clients.argos.dto.RegisterPlayerRequest;
 import guinho.olympus.clients.hermes.HermesRestClient;
-import guinho.olympus.commands.Command;
 import guinho.olympus.factory.PlayerFactory;
 import guinho.olympus.models.SimulationPlayer;
+import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
+@Service
 public class SimulationService {
     private final HermesRestClient hermes;
     private final ArgosRestClient argos;
