@@ -2,8 +2,9 @@
 
 ![Java](https://img.shields.io/badge/java-000000.svg?style=for-the-badge&logo=openjdk&logoColor=orange)
 ![SpringBoot](https://img.shields.io/badge/springboot-000000?style=for-the-badge&logo=springboot&logoColor=green)
+![SpringWeb](https://img.shields.io/badge/springweb-000000?style=for-the-badge&logo=springweb&logoColor=green)
 ![Picocli](https://img.shields.io/badge/picocli-000000.svg?style=for-the-badge)
-![repo size](https://img.shields.io/github/repo-size/GuinhoFSilva/hermes?style=for-the-badge&color=000000&labelColor=000000) 
+![repo size](https://img.shields.io/github/repo-size/GuinhoFSilva/morpheus?style=for-the-badge&color=000000&labelColor=000000) 
 
 
                  ███▄ ▄███▓ ▒█████   ██▀███   ██▓███   ██░ ██ ▓█████  █    ██   ██████
