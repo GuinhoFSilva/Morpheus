@@ -83,3 +83,4 @@ Objetivo: Executa automaticamente um fluxo completo utilizando as funcionalidade
 - Melhorar arquitetura de CLI;
 - Melhorar UX do cli;
 - Animações durante a execução de comandos longos;
+- Incluir cenários de teste de apenas um serviço;
