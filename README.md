@@ -79,7 +79,7 @@ Objetivo: Executa automaticamente um fluxo completo utilizando as funcionalidade
 ---
 
 # Roadmap V2
-- Refatorar sistema de métricas;
+- Refatorar sistema de métricas, tornando-o thread-safe;
 - Melhorar arquitetura de CLI;
 - Melhorar UX do cli;
 - Animações durante a execução de comandos longos;
